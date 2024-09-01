@@ -3,7 +3,7 @@ from fib import fibonacci
 # Test cases for the fibonacci function
 
 def test_zeroth_fibonacci():
-    assert(fibonacci(0) == 1)
+    assert(fibonacci(0) == 0)
 
 def test_first_fibonacci():
     assert(fibonacci(1) == 1)
